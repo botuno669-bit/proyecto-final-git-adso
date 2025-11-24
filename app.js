@@ -8,3 +8,4 @@ function aumentarContador() {
   contador++;
   document.getElementById("resultado").textContent = "Contador: " + contador;
 }
+
