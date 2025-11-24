@@ -1,3 +1,11 @@
-Rama: feature/footer
+Rama: feature/login   
 Fecha: 24/11/2025
-Descripcion: Aca ponemos texto de relleno para app js de la rama footer
+Descripcion:
+
+let contador = 0;
+
+function aumentarContador() {
+  contador++;
+  document.getElementById("resultado").textContent = "Contador: " + contador;
+}
+
